@@ -20,7 +20,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "git@github.com:Gabey/gitorious-.git"
+set :repository, "git@github.com:Gabey/redmine.git"
 set :branch, "deploy"
 
 # option so that the password prompt works
