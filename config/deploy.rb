@@ -6,7 +6,7 @@ load "config/recipes/unicorn"
 load "config/recipes/check"
 load "config/recipes/postgresql"
 
-server "192.168.1.106", :web, :app, :db, primary: true
+server "192.168.6.127", :web, :app, :db, primary: true
 
 set :git_enable_submodules, 1
 
