@@ -5,6 +5,7 @@ load "config/recipes/nginx"
 load "config/recipes/unicorn"
 load "config/recipes/check"
 load "config/recipes/postgresql"
+load "config/recipes/rbenv"
 
 server "192.168.6.127", :web, :app, :db, primary: true
 
